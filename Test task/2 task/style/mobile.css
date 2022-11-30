@@ -1,0 +1,279 @@
+@media screen and (max-width: 915px) {
+    .header {
+        background-color: black;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .header__menu {
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .header__menu-item a {
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 15px;
+        color: #E4E5EA;
+        text-transform: uppercase;
+        margin-right: 0;
+    }
+
+    .header__menu-item:nth-child(2) {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+
+    .header__menu-item:nth-child(3) {
+        margin-right: 16px;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .header__menu-item:last-child {
+        display: none;
+    }
+
+    .header__phone {
+        display: none;
+    }
+
+    .header__icons {
+        display: none;
+    }
+
+    .content {
+        padding-top: 0;
+    }
+
+    .intro {
+        min-width: 290px;
+        flex-direction: column;
+        justify-content: start;
+    }
+
+    .intro__column-left {
+        margin: 0 auto;
+    }
+
+    .intro__title {
+
+        padding-left: 14px;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 44px;
+    }
+
+    .intro__title-s {
+
+        padding-left: 14px;
+        font-weight: 900;
+        font-size: 36px;
+        line-height: 44px;
+    }
+
+    .intro__text {
+
+        padding-left: 14px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        padding-top: 15px;
+    }
+
+    .intro__column-right {
+        display: none;
+
+    }
+
+    .intro__subtitle {
+        text-align: left;
+        margin-left: 0;
+        padding-left: 0;
+        margin-top: 45px;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .intro__subtitle span {
+        font-size: 18px;
+        line-height: 22px;
+        background: linear-gradient(90deg, #FCB045 36.99%, #FD1D1D 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+
+
+    .intro__button {
+        display: none;
+    }
+
+    .intro__offers_m {
+        padding-left: 14px;
+        padding-top: 20px;
+        padding-bottom: 59px;
+        margin: 0;
+        display: grid;
+        grid-template-columns: 114px 141px;
+        grid-template-rows: repeat(2, min-content);
+        grid-column-gap: 10px;
+        grid-row-gap: 14px;
+    }
+
+    .intro__offers_m li {
+        list-style-type: none;
+    }
+
+    .offer-line {
+        float: left;
+        margin-top: 8px;
+        margin-right: 4px;
+    }
+
+    .intro__offers-title {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 16px;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        align-items: center;
+        padding-bottom: 0;
+        text-align: start;
+    }
+
+    .footer {
+        background-color: black;
+    }
+
+    .footer__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        margin: 0 auto;
+        padding-top: 25px;
+        max-width: 290px;
+    }
+
+
+    .mr0 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .footer__icons {
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        padding: 0;
+        margin: 0;
+        margin-top: 20px;
+    }
+
+
+    .policy {
+        text-align: left;
+    }
+
+
+    .footer__headline {
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 15px;
+        letter-spacing: 0.05em;
+        margin-top: 20px;
+    }
+
+    .link-list li a {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .menu-links {
+        width: 120px;
+    }
+
+    .menu-links:nth-child(2) {
+        padding-left: 48px;
+    }
+
+    .footer__icons {
+        margin-top: 8px;
+        margin-bottom: 10px;
+        height: 24px;
+    }
+
+    .footer__author {
+        min-width: 290px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin: 0 auto;
+        padding-top: 50px;
+        padding-bottom: 60px;
+
+    }
+
+    .author {
+        padding-top: 0;
+        text-align: left;
+
+    }
+
+    .background__circl1 {
+        position: absolute;
+        width: 259px;
+        height: 259px;
+        left: 258px;
+        top: 107px;
+        border-radius: 50%;
+        background: #833AB4;
+        opacity: 0.5;
+        filter: blur(196px);
+
+    }
+
+    .background__circl2 {
+        position: absolute;
+        width: 211px;
+        height: 210px;
+        left: -55px;
+        top: 241px;
+        border-radius: 50%;
+        background: #961A1A;
+        opacity: 0.5;
+        filter: blur(196px);
+    }
+
+    .background__circl3 {
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        left: -66px;
+        top: 519px;
+        border-radius: 50%;
+        background: #FCB045;
+        opacity: 0.4;
+        filter: blur(196px);
+        z-index: -1;
+    }
+
+    .background__circl4 {
+        position: absolute;
+        width: 320px;
+        height: 445px;
+        left: 0px;
+        top: 0px;
+        background: radial-gradient(238.53% 189.02% at 3.2% 3.49%, rgba(255, 246, 233, 0.1) 0%, rgba(26, 29, 35, 0.1) 26.62%, rgba(26, 29, 35, 0.1) 52.1%, rgba(26, 29, 35, 0.01) 70.17%, rgba(26, 29, 35, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+        backdrop-filter: blur(7.5px);
+    }
+
+}
